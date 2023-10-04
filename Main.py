@@ -247,7 +247,7 @@ def crear_nuevo_dron():
 
 root = tk.Tk()
 root.title("Tablero de Control")
-root.geometry("830x350")
+root.geometry("1000x800")
 
 
 class EstiloPersonalizado:
