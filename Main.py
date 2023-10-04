@@ -283,7 +283,7 @@ funciones_botones = [
         + "\n"
         + "carnet: 202100033"
         + "\n"
-        + "https://github.com/Erwin14k/IPC2_2S23_CLASSES/blob/main/Lista_Doble_Enlazada/lista_doble.py",
+        + "https://github.com/jchaveeez23/IPC2_PROYECTO2_202100033/blob/main/Documentacion/Documentaci%C3%B3n_202100033.pdf",
     ),
 ]
 textos_botones = [
