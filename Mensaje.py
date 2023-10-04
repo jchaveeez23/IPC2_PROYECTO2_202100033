@@ -142,4 +142,3 @@ class Mensaje:
         command = f"dot -Tpng graphs/{nombre}.dot -o graphs/{nombre}.png"
 
         os.system(command)
-

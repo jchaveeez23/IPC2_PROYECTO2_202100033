@@ -49,23 +49,37 @@ def listar_sistemas():
     global lista_sistemas
     marco_dashboard.pack_forget()
     marco_lista_sistemas.pack()
+
+    for widget in marco_lista_sistemas.winfo_children():
+        widget.destroy()
+
+    etiqueta_nombre_sistema = ttk.Label(
+        marco_lista_sistemas, text="Sistemas:", font=("Helvetica", 10)
+    )
+    boton_volver_dashboard3 = ttk.Button(
+    marco_lista_sistemas, text="Volver al Tablero", command=mostrar_dashboard
+    )
+
+    boton_volver_dashboard3.pack(pady=10)
+
+    etiqueta_nombre_sistema.pack(pady=10)
     actual = lista_sistemas.primero
     while actual:
         etiqueta_sistema = ttk.Label(
-            marco_lista_sistemas, text=f"{actual.dato.nombre}", font=("Helvetica", 12)
+            marco_lista_sistemas, text=f"{actual.dato.nombre}", font=("Helvetica", 10)
         )
         etiqueta_sistema.pack()
         etiqueta_sistema_alturas = ttk.Label(
             marco_lista_sistemas,
             text=f"Alturas: {actual.dato.altura}",
-            font=("Helvetica", 12),
+            font=("Helvetica", 8),
         )
 
         etiqueta_sistema_alturas.pack()
         etiqueta_sistema_cantidad = ttk.Label(
             marco_lista_sistemas,
             text=f"Cantidad: {actual.dato.cantidad}",
-            font=("Helvetica", 12),
+            font=("Helvetica", 8),
         )
 
         etiqueta_sistema_cantidad.pack()
@@ -75,7 +89,7 @@ def listar_sistemas():
             etiqueta_dron = ttk.Label(
                 marco_lista_sistemas,
                 text=f"Dron: {actual2.dato.nombre}",
-                font=("Helvetica", 12),
+                font=("Helvetica", 8),
             )
             etiqueta_dron.pack(padx=20)
             actual2 = actual2.siguiente
@@ -96,17 +110,32 @@ def listar_mensajes():
     lista_mensajes.ordenar_alfabeticamente_nombre()
     marco_dashboard.pack_forget()
     marco_lista_mensajes.pack()
+    
+    for widget in marco_lista_mensajes.winfo_children():
+        widget.destroy()
+
+    etiqueta_titulo_lista_mensajes = ttk.Label(
+        marco_lista_mensajes, text="Lista de Mensajes", font=("Helvetica", 10)
+    )
+
+    etiqueta_titulo_lista_mensajes.pack(pady=10)
+
+    boton_volver_dashboard4 = ttk.Button(
+        marco_lista_mensajes, text="Volver al Tablero", command=mostrar_dashboard
+    )
+
+    boton_volver_dashboard4.pack(pady=10)
     actual = lista_mensajes.primero
     while actual:
         etiqueta_mensaje = ttk.Label(
-            marco_lista_mensajes, text=f"{actual.dato.nombre}", font=("Helvetica", 12)
+            marco_lista_mensajes, text=f"{actual.dato.nombre}", font=("Helvetica", 10)
         )
         etiqueta_mensaje.pack()
         # mostrar tiempo optimo
         etiqueta_tiempo_optimo = ttk.Label(
             marco_lista_mensajes,
             text=f"Tiempo optimo: {actual.dato.tiempo_optimo}",
-            font=("Helvetica", 12),
+            font=("Helvetica", 10),
         )
 
         etiqueta_tiempo_optimo.pack()
@@ -115,7 +144,7 @@ def listar_mensajes():
         etiqueta_mensaje = ttk.Label(
             marco_lista_mensajes,
             text=f"Mensaje: {actual.dato.mensaje}",
-            font=("Helvetica", 12),
+            font=("Helvetica", 10),
         )
 
         etiqueta_mensaje.pack()
@@ -124,7 +153,7 @@ def listar_mensajes():
         etiqueta_sistema = ttk.Label(
             marco_lista_mensajes,
             text=f"Sistema: {actual.dato.sistema_drones}",
-            font=("Helvetica", 12),
+            font=("Helvetica", 10),
         )
 
         etiqueta_sistema.pack()
@@ -151,14 +180,14 @@ def ver_grafo(nombre):
 def crear_dron():
     mostrar_formulario_creacion_dron()
 
-
 def listar_drones():
     mostrar_lista_drones()
-
 
 def mostrar_dashboard():
     marco_formulario.pack_forget()
     marco_lista_drones.pack_forget()
+    marco_lista_sistemas.pack_forget()
+    marco_lista_mensajes.pack_forget()
     marco_dashboard.pack()
 
 
@@ -170,6 +199,20 @@ def mostrar_formulario_creacion_dron():
 def mostrar_lista_drones():
     marco_dashboard.pack_forget()
     marco_lista_drones.pack()
+
+    for widget in marco_lista_drones.winfo_children():
+        widget.destroy()
+
+    etiqueta_titulo_lista_drones = ttk.Label(
+        marco_lista_drones, text="Lista de Drones", font=("Helvetica", 14)
+    )
+    etiqueta_titulo_lista_drones.pack(pady=10)
+
+    boton_volver_dashboard2 = ttk.Button(
+        marco_lista_drones, text="Volver al Tablero", command=mostrar_dashboard
+    )
+
+    boton_volver_dashboard2.pack(pady=10)
     global lista_drones
     lista_drones.ordenar_alfabeticamente()
     actual = lista_drones.primero
@@ -236,9 +279,9 @@ funciones_botones = [
     listar_mensajes,
     lambda: messagebox.showinfo(
         "Ayuda",
-        "Estudiante: nombre"
+        "Estudiante: Josue Daniel Chavez Portillo"
         + "\n"
-        + "carnet"
+        + "carnet: 202100033"
         + "\n"
         + "https://github.com/Erwin14k/IPC2_2S23_CLASSES/blob/main/Lista_Doble_Enlazada/lista_doble.py",
     ),
@@ -272,46 +315,9 @@ marco_lista_drones = ttk.Frame(root)
 marco_lista_sistemas = ttk.Frame(root)
 marco_lista_mensajes = ttk.Frame(root)
 
-etiqueta_nombre_sistema = ttk.Label(
-    marco_lista_sistemas, text="Sistemas:", font=("Helvetica", 14)
-)
-
-etiqueta_nombre_sistema.pack(pady=10)
-
-
-etiqueta_titulo_lista_drones = ttk.Label(
-    marco_lista_drones, text="Lista de Drones", font=("Helvetica", 14)
-)
-etiqueta_titulo_lista_drones.pack(pady=10)
-
-boton_volver_dashboard2 = ttk.Button(
-    marco_lista_drones, text="Volver al Tablero", command=mostrar_dashboard
-)
-
-boton_volver_dashboard2.pack(pady=10)
-
-boton_volver_dashboard3 = ttk.Button(
-    marco_lista_sistemas, text="Volver al Tablero", command=mostrar_dashboard
-)
-
-boton_volver_dashboard3.pack(pady=10)
-
-
-boton_volver_dashboard4 = ttk.Button(
-    marco_lista_mensajes, text="Volver al Tablero", command=mostrar_dashboard
-)
-
-boton_volver_dashboard4.pack(pady=10)
-
 etiqueta_titulo_formulario = ttk.Label(
     marco_formulario, text="Agregar Dron", font=("Helvetica", 14)
 )
-
-etiqueta_titulo_lista_mensajes = ttk.Label(
-    marco_lista_mensajes, text="Lista de Mensajes", font=("Helvetica", 14)
-)
-
-etiqueta_titulo_lista_mensajes.pack(pady=10)
 
 etiqueta_nombre = ttk.Label(marco_formulario, text="Nombre:")
 entrada_nombre = ttk.Entry(marco_formulario)
