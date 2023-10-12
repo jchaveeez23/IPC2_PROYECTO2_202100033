@@ -1,0 +1,373 @@
+digraph G { 
+a0 [shape = none;label = <
+<TABLE border="0" cellspacing="10" cellpadding="10" >
+<TR>
+<TD  bgcolor="#E2EFDA">Tiempo</TD>
+<TD  bgcolor="#E2EFDA">Droncito</TD>
+<TD  bgcolor="#E2EFDA">Dronsote</TD>
+<TD  bgcolor="#E2EFDA">Dronecito</TD>
+<TD  bgcolor="#E2EFDA">Dronaoide</TD>
+<TD  bgcolor="#E2EFDA">R2D2</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">1</TD>
+<TD  bgcolor="#e9e9e9">subir</TD>
+<TD  bgcolor="#e9e9e9">subir</TD>
+<TD  bgcolor="#e9e9e9">subir</TD>
+<TD  bgcolor="#e9e9e9">subir</TD>
+<TD  bgcolor="#e9e9e9">subir</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">2</TD>
+<TD  bgcolor="#e9e9e9">Emitir Luz</TD>
+<TD  bgcolor="#e9e9e9">Subir</TD>
+<TD  bgcolor="#e9e9e9">Subir</TD>
+<TD  bgcolor="#e9e9e9">Subir</TD>
+<TD  bgcolor="#e9e9e9">Subir</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">3</TD>
+<TD  bgcolor="#e9e9e9">Emitir Luz</TD>
+<TD  bgcolor="#e9e9e9">Subir</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Subir</TD>
+<TD  bgcolor="#e9e9e9">Subir</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">4</TD>
+<TD  bgcolor="#e9e9e9">Subir</TD>
+<TD  bgcolor="#e9e9e9">Emitir Luz</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Subir</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">5</TD>
+<TD  bgcolor="#e9e9e9">Subir</TD>
+<TD  bgcolor="#e9e9e9">Subir</TD>
+<TD  bgcolor="#e9e9e9">Emitir Luz</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">6</TD>
+<TD  bgcolor="#e9e9e9">Emitir Luz</TD>
+<TD  bgcolor="#e9e9e9">Subir</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">7</TD>
+<TD  bgcolor="#e9e9e9">Bajar</TD>
+<TD  bgcolor="#e9e9e9">Subir</TD>
+<TD  bgcolor="#e9e9e9">Emitir Luz</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">8</TD>
+<TD  bgcolor="#e9e9e9">Emitir Luz</TD>
+<TD  bgcolor="#e9e9e9">Subir</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">9</TD>
+<TD  bgcolor="#e9e9e9">Subir</TD>
+<TD  bgcolor="#e9e9e9">Subir</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Emitir Luz</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">10</TD>
+<TD  bgcolor="#e9e9e9">Emitir Luz</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Bajar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">11</TD>
+<TD  bgcolor="#e9e9e9">Bajar</TD>
+<TD  bgcolor="#e9e9e9">Emitir Luz</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Bajar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">12</TD>
+<TD  bgcolor="#e9e9e9">Bajar</TD>
+<TD  bgcolor="#e9e9e9">Emitir Luz</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">13</TD>
+<TD  bgcolor="#e9e9e9">Emitir Luz</TD>
+<TD  bgcolor="#e9e9e9">Bajar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">14</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Bajar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Emitir Luz</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">15</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Bajar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Emitir Luz</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">16</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Emitir Luz</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">17</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Bajar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Emitir Luz</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">18</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Bajar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Emitir Luz</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">19</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Bajar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Subir</TD>
+<TD  bgcolor="#e9e9e9">Emitir Luz</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">20</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Bajar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Subir</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">21</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Emitir Luz</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Subir</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">22</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Subir</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">23</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Emitir Luz</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">24</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Bajar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">25</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Bajar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">26</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Bajar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">27</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Bajar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">28</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Emitir Luz</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">29</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Subir</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">30</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Subir</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">31</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Subir</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">32</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Subir</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">33</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Subir</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">34</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Subir</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">35</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Subir</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">36</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Emitir Luz</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">37</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Bajar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">38</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Bajar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">39</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Bajar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">40</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Bajar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">41</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Bajar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">42</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Bajar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">43</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Bajar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">44</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Emitir Luz</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+<TR>
+<TD  bgcolor="#e9e9e9">45</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+<TD  bgcolor="#e9e9e9">Emitir Luz</TD>
+<TD  bgcolor="#e9e9e9">Esperar</TD>
+</TR>
+</TABLE>>;];
+}
